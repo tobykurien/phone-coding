@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Phone coding</title>
+    <script src="../../lib/developer.js"></script>
+</head>
+<body>
+    <b>JavaScript Basics</b>
+
+    <p>
+        What is your name?
+    </p>
+    <p>
+        <input type="text" id="name">
+        <button onclick="greet()">Ok</button>
+    </p>
+
+    <script>
+        function greet() {
+            let nameInput = document.getElementById('name')
+            alert('Nice to meet you, ' + nameInput.value)
+        }
+    </script>
+</body>
+</html>
