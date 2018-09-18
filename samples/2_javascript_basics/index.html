@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8"> 
-    <title>Phone coding</title>
-    <script src="../../lib/developer.js"></script>
+	<meta charset="UTF-8"> 
+	<title>Phone coding</title>
+	<script src="../../lib/developer.js"></script>
 </head>
 <body>
-    <b>JavaScript Basics</b>
+	<b>JavaScript Basics</b>
 
-    <p>
-        What is your name?
-    </p>
-    <p>
-        <input type="text" id="name">
-        <button onclick="greet()">Ok</button>
-    </p>
+	<p>
+	  What is your name?
+	</p>
+	<div class="test">
+	  This is a test
+	</div>
+	<p>
+		<input type="text" id="name">
+		<button onclick="greet()">Ok</button>
+	</p>
 
-    <script>
-        function greet() {
-            let nameInput = document.getElementById('name')
-            alert('Nice to meet you, ' + nameInput.value)
-        }
+	<script>
+		function greet() {
+			let nameInput = document.getElementById('name')
+			alert('Nice to meet you, ' + nameInput.value)
+		}
 
-        console.log("Hello, developer console!")
-    </script>
+		console.log("Hello, developer console!")
+		dump(location)
+	</script>
 </body>
 </html>
